@@ -5,8 +5,3 @@ define("DB_PASSWORD", '');
 define("DB_NAME" , 'cms');
 
 $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-if($connection){
-    echo "we are connected";
-} else{
-    echo 'fail';
-}
